@@ -1,0 +1,59 @@
+index.html
+{
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>HELLO</p>
+</body>
+</html>
+}
+
+git init
+git add .
+git commit -m "github_cmds"
+git status (To check the status)
+git remote add origin <URL OF GITHUH REPOSITORIES>
+git branch (TO check the branch MAIN/MASTER/OTHER)
+git branch -M main
+git push -u origin main
+
+updated index.html
+{
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>HELLO, GITHUB_CMDS</p>
+</body>
+</html>
+}
+
+git status (To check the status)
+git add index.html
+git commit -m "updated index.html"
+git status (To check the status)
+git push origin main
+
+CREATE A FOLDER(folder_A)
+AND IN FOLDER(folder_A) CREATE FILE(index_A.html)
+
+git status (To check the status)
+git add folder_A
+git add .
+git commit -m "Added folder_A and index_A.html"
+git status (To check the status)
+git push origin main
+
+If chnage the conetent of a file from Github 
+
+git pull origin main --rebase
+git push origin main
